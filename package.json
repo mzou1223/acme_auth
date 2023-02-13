@@ -1,0 +1,28 @@
+{
+  "name": "acme_auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruralFluffyDill/acme_auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruralFluffyDill/acme_auth/issues"
+  },
+  "homepage": "https://github.com/ruralFluffyDill/acme_auth#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.9.0",
+    "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
