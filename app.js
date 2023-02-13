@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const { models: { User }} = require('./db');
 const path = require('path');
+const jwt = require('dotenv').config();
 
 // middleware
 app.use(express.json());
@@ -20,6 +21,7 @@ app.post('/api/auth', async(req, res, next)=> {
 
 app.get('/api/auth', async(req, res, next)=> {
   try {
+    
     res.send(await User.byToken(req.headers.authorization));
   }
   catch(ex){

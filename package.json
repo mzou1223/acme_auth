@@ -19,10 +19,12 @@
   "homepage": "https://github.com/ruralFluffyDill/acme_auth#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
     "pg": "^8.9.0",
     "sequelize": "^6.28.0"
   },
   "devDependencies": {
+    "dotenv": "^16.0.3",
     "nodemon": "^2.0.20"
   }
 }
