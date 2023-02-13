@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ruralFluffyDill/acme_auth#readme",
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "pg": "^8.9.0",
